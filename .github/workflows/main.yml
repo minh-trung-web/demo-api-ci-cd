@@ -1,4 +1,4 @@
-```yaml
+
 name: Restful-Booker CI Pipeline
 
 on: [push, pull_request]
@@ -21,4 +21,3 @@ jobs:
 
       - name: Chay bo test tu dong
         run: newman run RestfulBooker.postman_collection.json -e RestfulBooker.postman_environment.json
-```
